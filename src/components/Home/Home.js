@@ -3,6 +3,7 @@ import code from '../../img/coffee.png'
 import engineer from '../../img/engineer.png'
 const Home = () => {
     return ( 
+
      <div className={classes.Home}>
         <div className={classes.Container}>
             <h1 className={classes.Hello}>Hi, I'm Anva{'\n'}</h1>
@@ -10,7 +11,10 @@ const Home = () => {
         </div>
         <img className={classes.code} src = {code} alt="code"/>
         <img className={classes.engineer} src = {engineer} alt="code"/>
-         </div> );
+
+         </div> 
+         
+     );
 }
  
 export default Home;

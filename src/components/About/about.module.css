@@ -4,6 +4,8 @@
 }
 
 .AboutMe .Container {
+
+
     display: flex;
 }
 
@@ -27,4 +29,10 @@
     height: 500px;
     border-radius: 5%;
     padding-right: 5px;
+}
+
+svg {
+    background: rgb(32,0,36);
+    background: linear-gradient(90deg, rgba(32,0,36,1) 47%, rgba(104,9,121,1) 100%, rgba(0,212,255,1) 100%);
+  
 }

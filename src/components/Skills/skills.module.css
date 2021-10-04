@@ -1,5 +1,8 @@
 .Skills {
-    background-color: #141313;
+    /* background-color: #141313; */
+    background: rgb(32,0,36);
+    background: linear-gradient(90deg, rgba(32,0,36,1) 47%, rgba(104,9,121,1) 100%, rgba(0,212,255,1) 100%);
+  
 }
 
 .Skills p {
