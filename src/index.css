@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,22 +20,27 @@ code {
 
 h1 {
   font-weight: 900;
-  font-size: 45px; 
+  /* font-size: 2rem;  */
+  font-size: calc(1rem + 2.2vw);
   color: white;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 23px; 
+  font-size: 1.7rem; 
   color: white;
 }
 
 p {
   font-weight: 500;
-  font-size: 21px;
+  font-size: 1.2rem;
   color: white;
 }
 
 p, a, h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
+}
+
+li {
+  font-size: .9rem;
 }

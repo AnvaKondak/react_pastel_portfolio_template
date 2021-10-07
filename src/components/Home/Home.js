@@ -9,7 +9,7 @@ const Home = () => {
             <h1 className={classes.Hello}>Hi, I'm Anva{'\n'}</h1>
             <h3>Developer, designer.</h3>
         </div>
-        <img className={classes.code} src = {code} alt="code"/>
+        {/* <img className={classes.code} src = {code} alt="code"/> */}
         <img className={classes.engineer} src = {engineer} alt="code"/>
 
          </div> 

@@ -21,8 +21,8 @@ padding-bottom: 4%;
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
-    font-size: 18px;
 }
+
 
 .Skills .Container {
     display: flex;
@@ -47,4 +47,3 @@ padding-bottom: 4%;
     filter: brightness(0) invert(1);
     float: right;
 }
-
