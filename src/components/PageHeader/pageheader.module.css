@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 .Container {
     /*This positions elements from left to right*/
     display: flex;
@@ -12,9 +14,10 @@
     position: absolute;
     left: 0;
     width: 15vw;
-    border: 1px solid #8C1CD1;
+    border: 1px solid #f4c4c4;
 }
 
 .Container h1 {
     color: white;
+    font-family: 'Abril Fatface', cursive;
 }

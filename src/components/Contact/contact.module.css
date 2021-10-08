@@ -1,8 +1,11 @@
 .Contact {
-    background: rgb(32,0,36);
-    background: linear-gradient(90deg, rgba(32,0,36,1) 47%, rgba(104,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    background-color:#74647c;
     height: 25vh;
     display: inline-block;
     width: 100%;
     padding-bottom: 2%;
+}
+
+.Contact p {
+    color: #f4c4c4; 
 }

@@ -1,8 +1,5 @@
 .Skills {
-    /* background-color: #141313; */
-    background: rgb(32,0,36);
-    background: linear-gradient(90deg, rgba(32,0,36,1) 47%, rgba(104,9,121,1) 100%, rgba(0,212,255,1) 100%);
-  
+    background-color:#f4c4c4;
 }
 
 .Skills p {
@@ -30,20 +27,10 @@ padding-bottom: 4%;
 }
 
 .Skills .Container .List {
-    /* margin-top: 20%; */
     flex-basis: 33%; /*each list will have min width of 33%*/
-    background-color: black;
+    background-color: #ec6c44;
     box-shadow: 0 0 9px 1px white;
     margin-bottom: 2px;
     padding:2px;
 }
 
-.Skills .Container .city{
-    position: absolute;
-    height: 400px;
-    width: 100%;
-    /* right: 47%; */
-    bottom: 37%;
-    filter: brightness(0) invert(1);
-    float: right;
-}

@@ -7,7 +7,7 @@ body {
   font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #74647c;
   margin: 0;
 }
 
@@ -17,7 +17,6 @@ code {
 
 h1 {
   font-weight: 900;
-  /* font-size: 2rem;  */
   font-size: calc(1rem + 2.2vw);
   color: white;
 }
@@ -25,13 +24,13 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 1.7rem; 
-  color: white;
+  color: #ec6c44;
 }
 
 p {
   font-weight: 500;
   font-size: 1.2rem;
-  color: white;
+  color: #ec6c44;
 }
 
 p, a, h1, h2, h3, h4, h5, h6 {
@@ -40,6 +39,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'Raleway', sans-serif;
+  font-weight: 900;
 }
 li {
   font-size: .9rem;

@@ -1,11 +1,13 @@
 .AboutMe {
-    background-color: black;
+    background-color: #74647c;
     padding-bottom: 5%;
 }
 
+.AboutMe p, h2 {
+    color: #f4c4c4;
+}
+
 .AboutMe .Container {
-
-
     display: flex;
 }
 

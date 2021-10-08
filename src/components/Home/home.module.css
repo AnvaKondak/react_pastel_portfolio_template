@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 .Home {
     display: flex; 
-    /* background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://img.wattpad.com/5ad380d0b99ebadd18b71ca24e60817add25fb68/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4874646a79414f4b62694d6d36773d3d2d313031353837353231332e313635643531663164366662366130303831353736303937333037362e676966") no-repeat center/cover;  */
-    background-color: #F1E4F1;
+    background-color:#f4c4c4;
     min-height: 80vh;
     width: 100%;
     padding-left: 50px; 
@@ -26,15 +26,16 @@
 
 .Home .Container h2 {
     font-size: 3rem;
+    font-family: 'Abril Fatface', cursive;
     line-height: 1;
-    text-shadow: 4px 4px 1px #FE4937; /*#ca40ba; */
     padding-left: 12px;
+    color: #ec6c44;
 }
 
 .Home .Container span {
     display: block; 
     font-size: 21px;
-    color: #FE4937; 
+    color: #ec6c44; 
     font-weight: 800;
     text-shadow: none;
     margin: 3px 0;
