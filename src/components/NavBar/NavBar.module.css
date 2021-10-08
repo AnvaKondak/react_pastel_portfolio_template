@@ -1,10 +1,10 @@
 .NavBar {
-    background-color: #181818;
+    /* background-color: #181818; */
     height: 80px; 
     width: 100%; 
     position: fixed; 
     z-index: 999;
-    opacity: 0.9;
+    /* opacity: 0.2; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,13 @@
 .NavBar nav ul li {
     display: inline-block;
     margin: 1.5vw;
+  
 }
 
 .NavBar nav ul li a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
+
 }
 
 .NavBar a:hover {
