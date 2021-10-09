@@ -43,12 +43,16 @@ const Skills = () => {
 </svg>
     <div className={classes.Skills} id = "skills">
         <PageHeader title="Skills" color='#ec6c44'/>
-        <p  data-aos="fade-up">
+        <div className="row justify-content-center">
+        <div className="col-4"></div>
+        <p  data-aos="fade-up" className = "col-4 text-center">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 optio, eaque rerum! Provident similique accusantium nemo autem.
                 </p>
+                 <div className="col-4"></div>
+                </div>
                 <div className = {classes.Container} data-aos="fade-up">
                     {totalSkills.map(skills => {
                         return (

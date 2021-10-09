@@ -3,9 +3,9 @@
 }
 
 .Skills p {
-padding-left: 25%;
-width: 50%;
-padding-bottom: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 7%;
 }
 
 .Skills .List ul {
@@ -27,7 +27,7 @@ padding-bottom: 4%;
 }
 
 .Skills .Container .List {
-    flex-basis: 33%; /*each list will have min width of 33%*/
+    flex-basis: 34%; /*each list will have min width of 33%*/
     background-color: #ec6c44;
     box-shadow: 0 0 9px 1px white;
     margin-bottom: 2px;

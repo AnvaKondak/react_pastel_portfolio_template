@@ -17,7 +17,8 @@ const About = () => {
         <PageHeader title='About' color='#f4c4c4'/>
         <div className={classes.Container}>
 
-            <div  className={classes.Text}>
+            <div className="row justify-content-center"> 
+            <div  className={classes.Text} className="col-sm-6" >
                 <h2 data-aos="fade-up">A little about me!</h2>
                 <p  data-aos="fade-up" data-aos-delay="300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -30,13 +31,15 @@ tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
 quia. Quo neque error repudiandae fuga? 
                 </p>
             </div>
-            <div className={classes.Photo}>
+          
+
+            <div className="col-sm-6" className={classes.Photo}>
                 <img className = {classes.Me} src={me}  data-aos="fade-up" alt="me!" />
             </div>
+            </div>
+            </div>
         </div>
-    </div> 
 
-//  </> 
  );
 }
  
