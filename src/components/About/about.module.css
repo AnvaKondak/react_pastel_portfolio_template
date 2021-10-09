@@ -14,7 +14,6 @@
 }
 
 .AboutMe .Container .Text {
-    /* width: 47%; */
     margin-left: 3%;
     padding: 5%;
 }
@@ -31,13 +30,12 @@
 
 .AboutMe .Container .Photo  {
     display: flex;
-    /* width: 50%; */
     justify-content: center;
     align-items: center;
 }
 
 .AboutMe .Container .Photo .Me {
-    width: 90%;
+    width: 100%;
     max-width: 300px;
     max-height: 400px;
     border-radius: 5%;
@@ -58,6 +56,6 @@
     }
 
     .AboutMe .Container .Photo{
-        width: 70%;
+        width: 92%;
     }
 }
