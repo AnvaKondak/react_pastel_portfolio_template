@@ -1,6 +1,7 @@
 .AboutMe {
     background-color: #74647c;
     padding-bottom: 5%;
+    width: 100%;
 }
 
 .AboutMe p, h2 {

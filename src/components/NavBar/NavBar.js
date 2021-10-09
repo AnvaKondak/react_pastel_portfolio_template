@@ -17,7 +17,7 @@ const NavBar = () => {
       <div className = {classes.NavBar}>
         <div id="mySidebar" className={classes.sidebar}>
   <a href="javascript:void(0)" className={classes.closebtn} onClick={closeNav}>×</a>
-  <a href="/">Home</a>
+  <a href="/#">Home</a>
   <a href="/#about">About</a>
   <a href="/#skills">Skills</a>
   <a href="/#projects">Projects</a>

@@ -1,11 +1,43 @@
-.Contact {
-    background-color:#74647c;
-    height: 25vh;
-    display: inline-block;
-    width: 100%;
-    padding-bottom: 2%;
+.lab_social_icon_footer{
+    height: 15vh;
 }
-
-.Contact p {
-    color: #f4c4c4; 
-}
+  .lab_social_icon_footer a {
+    color: #f4c4c4;
+    padding-right: .9%;
+    padding-bottom: 5%;
+  }
+  
+  .lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  .lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+  /*
+      Multicoloured Hover Variations
+  */
+  .lab_social_icon_footer #socialfb:hover {
+    color: #3B5998;
+  }
+  
+  .lab_social_icon_footer #socialtw:hover {
+    color: #4099FF;
+  }
+  
+  .lab_social_icon_footer #socialgp:hover {
+    color: #d34836;
+  }
+  
+  .lab_social_icon_footer #socialem:hover {
+    color: #f39c12;
+  }

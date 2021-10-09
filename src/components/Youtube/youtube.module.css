@@ -19,6 +19,7 @@
 
 .Youtube .VideoContainer {
     align-items: center;
+    padding: 2.5%;
 }
 
 .Youtube .VideoContainer:hover {
@@ -64,12 +65,14 @@
     }
 
     .Youtube .Videos .VideoContainer .Text {
-        width: 90%;
+        width: 80%;
+        font-size: 1px;
     }
 
-    .Youtube .VideoContainer .Thumbnail  {
-        width: 500%;
+    .Youtube .Videos .VideoContainer .Text p {
+       
     }
+
 }
 
 @media (max-width: 756px) {

@@ -29,13 +29,14 @@ const Youtube = () => {
         <PageHeader title={"Projects"} color = "#ec6c44"/>
         <div className = {classes.Content}>
             <div className={classes.Paragraph}>
-            <p>
+            <p data-aos="fade-up">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi.
                 </p>
             </div>
-            <div className = {classes.Videos}>
+            <div className = {classes.Videos} data-aos="fade-up" data-aos-delay="300">
             {githubsrc('https://github.com/anvakondak', AR, ARprojdescription)}
+            {githubsrc('https://github.com/anvakondak', AR, weatherprojdescription)}
             {githubsrc('https://github.com/anvakondak', AR, weatherprojdescription)}
         </div>
     </div> 

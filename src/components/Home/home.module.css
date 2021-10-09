@@ -4,10 +4,9 @@
     display: flex; 
     background-color:#f4c4c4;
     min-height: 80vh;
-    width: 100%;
-    padding-left: 50px; 
-    position: relative;
     text-align: left;
+    padding-left: 7%;
+    position: relative;
 }
 
 
@@ -81,38 +80,29 @@
     .Home .Container h3 { 
         top: 79%;
     }
-    .Home .code {
-        width: 40%;
-        max-width: 200px;
-        position: absolute;
-        height: 24%;
-        top: 67%;
-        right: 50%;
-        filter: brightness(0) invert(1);
-        display: block;
-    }
-
-    .Home .engineer {
-        width: 50%;
-        max-width: 200px;
-        position:absolute;
-        top: 50%;
-        height: 44%;
-        right: 20%;
-        filter: brightness(0) invert(1);
-        display: block;
-    }
-}
-
-.Home .engineer {
-    width: 60%;
-    max-width: 200px;
-    position:absolute;
-    top: 50%;
-    height: 44%;
-    right: 8%;
-    filter: brightness(0) invert(1);
-    display: block;
 
 }
 
+
+
+
+#myBtn {
+    position: fixed;
+    bottom: 10%;
+    right: 7%;
+    z-index: 99;
+    font-size: .9rem;
+    border: none;
+    outline: none;
+    background-color: #ec6c44;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: .8;
+    scroll-behavior:smooth;
+  }
+  
+  #myBtn:hover {
+    background-color: #74647c;
+  }
