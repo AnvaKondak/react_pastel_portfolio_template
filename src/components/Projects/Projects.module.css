@@ -1,54 +1,54 @@
-.Youtube {
+.Projects {
     padding: 7%;
     background-color:#f4c4c4;
 }
 
-.Youtube .Content {
+.Projects .Content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.Youtube .Videos {
+.Projects .Videos {
     width: 90%;
  
 }
 
-.Youtube .Paragraph {
+.Projects .Paragraph {
     width: 65%;
 }
 
-.Youtube .VideoContainer {
+.Projects .VideoContainer {
     align-items: center;
     padding: 2.5%;
 }
 
-.Youtube .VideoContainer:hover {
+.Projects .VideoContainer:hover {
     transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
-.Youtube .VideoContainer .Text {
+.Projects .VideoContainer .Text {
     padding-left: 2.5%;
     padding-right: 2.5%;
     width: 45%;
 }
 
-.Youtube .VideoContainer .Text p {
+.Projects .VideoContainer .Text p {
     width: 95%;
     font-size: 1.2rem;
     color: white;
 }
 
-.Youtube .VideoContainer .Thumbnail  {
+.Projects .VideoContainer .Thumbnail  {
     padding: 2.5% 2.5% 2.5% 2.5%;
     width: 45%;
     position: relative;
 }
-.Youtube .VideoContainer .Thumbnail img {
+.Projects .VideoContainer .Thumbnail img {
     max-width: 509px;
    width: 100%;
 }
 
-.Youtube .Videos .VideoContainer {
+.Projects .Videos .VideoContainer {
     display: flex;
     margin-bottom: 5%;
     height: 100%;
@@ -60,27 +60,27 @@
 }
 
 @media (max-width: 500) {
-    .Youtube .Videos .VideoContainer {
+    .Projects .Videos .VideoContainer {
         width: 90%;
     }
 
-    .Youtube .Videos .VideoContainer .Text {
+    .Projects .Videos .VideoContainer .Text {
         width: 80%;
         font-size: 1px;
     }
 
-    .Youtube .Videos .VideoContainer .Text p {
+    .Projects .Videos .VideoContainer .Text p {
        
     }
 
 }
 
 @media (max-width: 756px) {
-    .Youtube .Videos .VideoContainer {
+    .Projects .Videos .VideoContainer {
         flex-direction: column;
     }
 
-    .Youtube .Videos .VideoContainer .Text {
+    .Projects .Videos .VideoContainer .Text {
         width: 80%;
     }
 }

@@ -1,5 +1,5 @@
 import PageHeader from '../PageHeader/PageHeader';
-import classes from './youtube.module.css';
+import classes from './Projects.module.css';
 import AR from '../../img/AR.png';
 
 const githubsrc = (url, thumbnail, description) => {
@@ -21,11 +21,11 @@ const githubsrc = (url, thumbnail, description) => {
 const ARprojdescription = 'In this project, I Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis har'; 
 const weatherprojdescription = 'In this project, I Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis har'; 
 
-const Youtube = () => {
+const Projects = () => {
     return (
         <div style={{
             backgroundColor: '#74647c'
-           }}> <div className={classes.Youtube} id = "projects">
+           }}> <div className={classes.Projects} id = "projects">
         <PageHeader title={"Projects"} color = "#ec6c44"/>
         <div className = {classes.Content}>
             <div className={classes.Paragraph}>
@@ -49,4 +49,4 @@ molestiae quas vel sint commodi.
 }
  
 
-export default Youtube;
+export default Projects;
