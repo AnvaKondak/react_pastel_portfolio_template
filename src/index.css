@@ -35,19 +35,19 @@ code {
 
 h1 {
   font-weight: 900;
-  font-size: calc(2.9rem + 2.2vw);
+  font-size: calc(3.9rem + 2.2vw);
   color: white;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 1.7rem; 
+  font-size: 2.7rem; 
   color: #ec6c44;
 }
 
 p {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: #ec6c44;
 }
 
@@ -60,5 +60,5 @@ p {
   font-weight: 900;
 }
 li {
-  font-size: .9rem;
+  font-size: 1.9rem;
 }
