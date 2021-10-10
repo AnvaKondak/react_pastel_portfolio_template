@@ -32,7 +32,7 @@ const scrollFunction = () => {
         <Typist cursor={{show: false}}>
               <Typist.Delay ms={600}/>
               <span>&lt;h1&gt;</span>
-              <h2>Hi<br/>I'm Anva<br/>Designer, Developer.</h2>
+              <h2>Hi<br/>I'm Anva.<br/>Designer, Developer.</h2>
               <span>&lt;/h1&gt;</span>
           </Typist>
         </div>
