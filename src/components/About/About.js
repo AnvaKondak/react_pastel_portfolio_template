@@ -21,14 +21,15 @@ const About = () => {
             <div  className={classes.Text} className="col-sm-6" >
                 <h2 data-aos="fade-up">A little about me!</h2>
                 <p  data-aos="fade-up" data-aos-delay="300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? 
+               
+I always expected my breakthrough moment to come during a random visit to the MoMA, or perhaps after completing a classic novel. <br/> Instead, this moment arrived  when I learned my first JavaScript library- Animate On Scroll. <br/>
+
+There is no better way to experience firsthand just how powerful your imagination can be than creating software that solves practical problems. <br/>
+
+4 years later, I still believe in the power of programming to transform the lives of people around the world. 
+
+I am incredibly enthusiastic about picking up new skills, responsive design principles, and new programming languages in creative and innovative environments. 
+ 
                 </p>
             </div>
           

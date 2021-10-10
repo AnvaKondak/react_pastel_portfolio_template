@@ -1,6 +1,7 @@
 import PageHeader from '../PageHeader/PageHeader';
 import classes from './Projects.module.css';
 import AR from '../../img/AR.png';
+import Class from '../../img/class.jpeg'
 
 const githubsrc = (url, thumbnail, description) => {
     return (
@@ -18,8 +19,8 @@ const githubsrc = (url, thumbnail, description) => {
     </a>); 
 }
 
-const ARprojdescription = 'In this project, I Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis har'; 
-const weatherprojdescription = 'In this project, I Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis har'; 
+const ARprojdescription = 'With augmented reality and Vuforia Cloud, students can scan their ID\'s and select virtual buttons to view 3D models rendering classroom lectures and their performance.'; 
+const weatherprojdescription = 'Web application that maps air quality by using your location to check for nearby pollution. Using Dark Sky API (weather) and OpenAQ (open air quality) database.'; 
 
 const Projects = () => {
     return (
@@ -30,14 +31,12 @@ const Projects = () => {
         <div className = {classes.Content}>
             <div className={classes.Paragraph}>
             <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi.
+               “The computer was born to solve problems that did not exist before.”
                 </p>
             </div>
             <div className = {classes.Videos} data-aos="fade-up" data-aos-delay="300">
-            {githubsrc('https://github.com/anvakondak', AR, ARprojdescription)}
-            {githubsrc('https://github.com/anvakondak', AR, weatherprojdescription)}
-            {githubsrc('https://github.com/anvakondak', AR, weatherprojdescription)}
+            {githubsrc('https://github.com/AnvaKondak/Augmented-Reality-Lecture-Simulation-pt1', AR, ARprojdescription)}
+            {githubsrc('https://github.com/AnvaKondak/Mapping-Air-Quality', Class, weatherprojdescription)}
         </div>
     </div> 
     </div>
