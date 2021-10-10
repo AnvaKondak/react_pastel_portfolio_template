@@ -46,7 +46,7 @@ const Skills = () => {
         <div className="row justify-content-center">
         <div className="col-4"></div>
         <p  data-aos="fade-up" className = "col-4 text-center">
-              I am a software engineer experienced in full stack development, data automation, and UI/UX design. I am passionate about writing code that demonstrates correctness, readability and efficiency.
+              I am experienced in full stack development, data automation, and UI/UX design. I am passionate about writing code that demonstrates correctness, readability and efficiency.
                 </p>
                  <div className="col-4"></div>
                 </div>
