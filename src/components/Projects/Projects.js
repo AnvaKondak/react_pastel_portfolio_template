@@ -1,7 +1,7 @@
 import PageHeader from '../PageHeader/PageHeader';
 import classes from './Projects.module.css';
 import AR from '../../img/AR.png';
-import AirQuality from '../../img/airquality.jpeg'
+import AirQuality from '../../img/aq.png'
 
 const githubsrc = (url, thumbnail, description) => {
     return (
