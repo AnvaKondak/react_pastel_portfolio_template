@@ -1,7 +1,7 @@
 import PageHeader from '../PageHeader/PageHeader';
 import classes from './Projects.module.css';
 import AR from '../../img/AR.png';
-import Class from '../../img/class.jpeg'
+import AirQuality from '../../img/airquality.jpeg'
 
 const githubsrc = (url, thumbnail, description) => {
     return (
@@ -36,7 +36,7 @@ const Projects = () => {
             </div>
             <div className = {classes.Videos} data-aos="fade-up" data-aos-delay="300">
             {githubsrc('https://github.com/AnvaKondak/Augmented-Reality-Lecture-Simulation-pt1', AR, ARprojdescription)}
-            {githubsrc('https://github.com/AnvaKondak/Mapping-Air-Quality', Class, weatherprojdescription)}
+            {githubsrc('https://github.com/AnvaKondak/Mapping-Air-Quality', AirQuality, weatherprojdescription)}
         </div>
     </div> 
     </div>
