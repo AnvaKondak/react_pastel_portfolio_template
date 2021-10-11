@@ -18,7 +18,7 @@ const githubsrc = (url, header, description) => {
 
 const ARprojdescription = 'With augmented reality and Vuforia Cloud, students can scan their ID\'s and select virtual buttons to view 3D models rendering classroom lectures and performance.'; 
 const weatherprojdescription = 'Web application that maps air quality by using your location to check for nearby pollution. Using Dark Sky API (weather) and OpenAQ (open air quality) database.'; 
-const portfolioTemplate = 'A soft, pastel-themed portfolio template built with React, Bootstrap, Animation On Scroll, and Typist. Ideal for technical portfolios.';
+const portfolioTemplate = 'A soft, pastel-themed portfolio template built with React, Bootstrap, Animate On Scroll, and Typist. Ideal for technical portfolios.';
 const Projects = () => {
     return (
         <div style={{
