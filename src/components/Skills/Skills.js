@@ -12,14 +12,14 @@ const backendSkills = <ul>
     <li style={ listTitleStyle }>BACKEND</li>
     <br/>
     <li>Java, MongoDB, Shell,</li>
-    <li>Express.js, Node</li>
+    <li>Express, Node</li>
 </ul>
 
 const frontendSkills = <ul>
     <li  style={ listTitleStyle }>FRONTEND</li>
     <br/>
-    <li>ReactJS, Angular,</li>
-    <li>HTML, CSS</li>
+    <li>React, Angular,</li>
+    <li>HTML, CSS, JavaScript</li>
 </ul>
 
 const otherSkills = <ul> 
@@ -49,7 +49,7 @@ const Skills = () => {
         <div className="row justify-content-center">
         <div className="col-4"></div>
         <p  data-aos="fade-up" className = "col-4 text-center">
-              I am experienced in full stack development, data automation, and UI/UX design. 
+              I am experienced in full stack development, data automation, workload automation and UI/UX design. 
                 </p>
                  <div className="col-4"></div>
                 </div>
