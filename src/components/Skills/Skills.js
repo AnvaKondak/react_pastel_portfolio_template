@@ -10,7 +10,7 @@ const listTitleStyle = {
 
 const backendSkills = <ul>
     <li style={ listTitleStyle }>BACKEND</li>
-    <li>Java - SQL - Shell</li>
+    <li>Java - MongoDB - Shell</li>
     <li>Express.js - Node</li>
 </ul>
 
@@ -23,7 +23,7 @@ const frontendSkills = <ul>
 const otherSkills = <ul> 
     <li style={ listTitleStyle }>OTHER</li>
     <li>Git - JSON - Jenkins</li>
-    <li> XML - VBA</li>
+    <li> XML - VBA - ESP</li>
 </ul>
 
 const totalSkills = [
