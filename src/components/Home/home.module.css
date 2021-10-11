@@ -80,6 +80,9 @@
     .Home .Container h3 { 
         top: 79%;
     }
+    .Home .Container h2 {
+        font-size: 6rem;
+    }
 
 }
 
