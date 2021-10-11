@@ -11,7 +11,7 @@ const listTitleStyle = {
 const backendSkills = <ul>
     <li style={ listTitleStyle }>BACKEND</li>
     <li>Java - SQL - Shell</li>
-    <li>Express.js - Spring Boot</li>
+    <li>Express.js - Node</li>
 </ul>
 
 const frontendSkills = <ul>
@@ -20,7 +20,7 @@ const frontendSkills = <ul>
     <li>HTML - CSS</li>
 </ul>
 
-const otherSkills = <ul>
+const otherSkills = <ul> 
     <li style={ listTitleStyle }>OTHER</li>
     <li>Git - JSON - Jenkins</li>
     <li> XML - VBA</li>
@@ -46,7 +46,7 @@ const Skills = () => {
         <div className="row justify-content-center">
         <div className="col-4"></div>
         <p  data-aos="fade-up" className = "col-4 text-center">
-              I am experienced in full stack development, data automation, and UI/UX design. I am passionate about writing code that demonstrates correctness, readability and efficiency.
+              I am experienced in full stack development, data automation, and UI/UX design. 
                 </p>
                  <div className="col-4"></div>
                 </div>

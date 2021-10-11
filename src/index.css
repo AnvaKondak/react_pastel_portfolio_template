@@ -21,13 +21,7 @@ body {
   background-color: #74647c;
 
 }
-@media screen and (orientation:landscape) {
-  /* Input Styles */
- body {
 
- }
-
-}
 
 code {
   font-family: "Nunito", sans-serif;
@@ -46,8 +40,8 @@ h2 {
 }
 
 p {
-  font-weight: 500;
-  font-size: 1.8rem;
+  font-weight: 700;
+  font-size: 2.2rem;
   color: #ec6c44;
 }
 

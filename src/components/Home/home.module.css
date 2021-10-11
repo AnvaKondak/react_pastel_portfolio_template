@@ -24,7 +24,7 @@
 }
 
 .Home .Container h2 {
-    font-size: 5.8rem;
+    font-size: 7rem;
     font-family: 'Abril Fatface', cursive;
     line-height: 1;
     padding-left: 12px;
@@ -34,7 +34,7 @@
 
 .Home .Container span {
     display: block; 
-    font-size: 21px;
+    font-size: 27px;
     color: #ec6c44; 
     font-weight: 800;
     text-shadow: none;

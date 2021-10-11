@@ -1,27 +1,24 @@
 import PageHeader from '../PageHeader/PageHeader';
 import classes from './Projects.module.css';
-import AR from '../../img/AR.png';
-import AirQuality from '../../img/aq.png'
 
-const githubsrc = (url, thumbnail, description) => {
+const githubsrc = (url, header, description) => {
     return (
         <a href={url} style = {{textDecoration: 'none'}}>
+     <div className = "col-lg-4">
     <div className={classes.VideoContainer}>
-   
-        <div className={classes.Thumbnail}>
-            <img src = {thumbnail} alt = "thumbnail"></img>
-            </div>
         <div className={classes.Text}>
+            <h2>{header}</h2>
+            <br/>
             <p>{description}</p>
         </div>
-   
+   </div>
     </div>
     </a>); 
 }
 
-const ARprojdescription = 'With augmented reality and Vuforia Cloud, students can scan their ID\'s and select virtual buttons to view 3D models rendering classroom lectures and their performance.'; 
+const ARprojdescription = 'With augmented reality and Vuforia Cloud, students can scan their ID\'s and select virtual buttons to view 3D models rendering classroom lectures and performance.'; 
 const weatherprojdescription = 'Web application that maps air quality by using your location to check for nearby pollution. Using Dark Sky API (weather) and OpenAQ (open air quality) database.'; 
-
+const portfolioTemplate = 'A soft, pastel-themed portfolio template built with React, Bootstrap, Animation On Scroll, and Typist. Ideal for technical portfolios.';
 const Projects = () => {
     return (
         <div style={{
@@ -35,8 +32,11 @@ const Projects = () => {
                 </p>
             </div>
             <div className = {classes.Videos} data-aos="fade-up" data-aos-delay="300">
-            {githubsrc('https://github.com/AnvaKondak/Augmented-Reality-Lecture-Simulation-pt1', AR, ARprojdescription)}
-            {githubsrc('https://github.com/AnvaKondak/Mapping-Air-Quality', AirQuality, weatherprojdescription)}
+                <div className="row justify-content-center">
+            {githubsrc('https://github.com/AnvaKondak/Augmented-Reality-Lecture-Simulation-pt1', 'AR Classroom Simulation', ARprojdescription)}
+            {githubsrc('https://github.com/AnvaKondak/Mapping-Air-Quality', 'Mapping Air Quality', weatherprojdescription)}
+            {githubsrc('https://github.com/AnvaKondak/react_pastel_portfolio_template', 'Pastel-themed Portfolio Template', portfolioTemplate)}
+        </div>
         </div>
     </div> 
     </div>

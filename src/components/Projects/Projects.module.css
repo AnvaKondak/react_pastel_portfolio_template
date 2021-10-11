@@ -3,13 +3,17 @@
     background-color:#f4c4c4;
 }
 
+.Projects h2 {
+    font-size: 2.5rem;
+}
+
 .Projects .Content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .Projects .Videos {
-    width: 90%;
+    width: 100%;
  
 }
 
@@ -19,7 +23,8 @@
 
 .Projects .VideoContainer {
     align-items: center;
-    padding: 2.5%;
+    padding: 3%;
+    margin: 2.9%;
 }
 
 .Projects .VideoContainer:hover {
@@ -29,23 +34,14 @@
 .Projects .VideoContainer .Text {
     padding-left: 2.5%;
     padding-right: 2.5%;
-    width: 45%;
+    width: 80%;
+
 }
 
 .Projects .VideoContainer .Text p {
     width: 95%;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     color: white;
-}
-
-.Projects .VideoContainer .Thumbnail  {
-    padding: 2.5% 2.5% 2.5% 2.5%;
-    width: 45%;
-    position: relative;
-}
-.Projects .VideoContainer .Thumbnail img {
-    max-width: 509px;
-   width: 100%;
 }
 
 .Projects .Videos .VideoContainer {
@@ -54,9 +50,8 @@
     height: 100%;
     justify-content: center;
     background-color: #efa9a9;
-    border-radius: 10px;
     box-shadow: 0px 0px 3px 1px white;
-  
+    min-height: 380px;
 }
 
 @media (max-width: 500) {
@@ -66,11 +61,6 @@
 
     .Projects .Videos .VideoContainer .Text {
         width: 80%;
-        font-size: 1px;
-    }
-
-    .Projects .Videos .VideoContainer .Text p {
-       
     }
 
 }
