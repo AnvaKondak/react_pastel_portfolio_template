@@ -22,7 +22,7 @@ const About = () => {
                 <h2 data-aos="fade-up">A little about me!</h2>
                 <p  data-aos="fade-up" data-aos-delay="300">
 I always expected my breakthrough moment to come during a random visit to the MoMA, or perhaps after completing a classic novel. 
-Instead, this moment arrived  when I learned my first JavaScript library- Animate On Scroll.
+Instead, this moment arrived  when I learned my first CSS animation library- Animate On Scroll.
 4 years later, I have had the privilege of working at a startup, Upwork (freelancing) and two large financial institutions. 
 I love working with design and technology in spaces that thrive on innovation and creativity. 
 My current focus is on picking up new skills, new programming languages and responsive design principles. 
