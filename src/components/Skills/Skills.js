@@ -25,7 +25,7 @@ const frontendSkills = <ul>
 const otherSkills = <ul> 
     <li style={ listTitleStyle }>OTHER</li>
     <br/>
-    <li> Git, VBA, Alteryx, UIPath, ESP,</li>
+    <li> Git, VBA, Alteryx, UiPath, ESP,</li>
     <li>Mockito, Jasmine, Protractor</li>
 </ul>
 
