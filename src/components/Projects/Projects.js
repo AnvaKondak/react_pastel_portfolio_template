@@ -4,7 +4,7 @@ import classes from './Projects.module.css';
 const githubsrc = (url, header, description) => {
     return (
         <a href={url} style = {{textDecoration: 'none'}}>
-     <div className = "col-lg-4">
+     <div className = "col-md-4">
     <div className={classes.VideoContainer}>
         <div className={classes.Text}>
             <h2>{header}</h2>
