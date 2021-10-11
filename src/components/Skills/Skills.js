@@ -10,18 +10,21 @@ const listTitleStyle = {
 
 const backendSkills = <ul>
     <li style={ listTitleStyle }>BACKEND</li>
+    <br/>
     <li>Java, MongoDB, Shell,</li>
     <li>Express.js, Node</li>
 </ul>
 
 const frontendSkills = <ul>
     <li  style={ listTitleStyle }>FRONTEND</li>
+    <br/>
     <li>ReactJS, Angular,</li>
     <li>HTML, CSS</li>
 </ul>
 
 const otherSkills = <ul> 
     <li style={ listTitleStyle }>OTHER</li>
+    <br/>
     <li>Git, JSON, Jenkins,</li>
     <li> XML, VBA, ESP</li>
 </ul>
