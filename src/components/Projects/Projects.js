@@ -17,7 +17,7 @@ const githubsrc = (url, header, description) => {
 }
 
 const ARprojdescription = 'With augmented reality and Vuforia Cloud, students can scan their ID and select virtual buttons to view 3D models rendering classroom lectures and performance.'; 
-const weatherprojdescription = 'Web application that maps air quality by using your location to check for nearby pollution. Using Dark Sky API (weather) and OpenAQ (open air quality) database.'; 
+const recipehubdescription = 'A platform where users can create and share recipes, with the option to store them privately in their recipe diary. Built with Ruby on Rails and SQLite3.'; 
 const portfolioTemplate = 'A soft, pastel-themed portfolio template built with React, Bootstrap, Animate On Scroll, and Typist. Ideal for technical portfolios.';
 const Projects = () => {
     return (
@@ -34,7 +34,7 @@ const Projects = () => {
             <div className = {classes.Videos} data-aos="fade-up" data-aos-delay="300">
                 <div className="row justify-content-center">
             {githubsrc('https://github.com/AnvaKondak/Augmented-Reality-Lecture-Simulation-pt1', 'AR Classroom Simulation', ARprojdescription)}
-            {githubsrc('https://github.com/AnvaKondak/Mapping-Air-Quality', 'Mapping Air Quality', weatherprojdescription)}
+            {githubsrc('https://github.com/AnvaKondak/rails_recipe_hub', 'Bon Appetit Recipe Hub', recipehubdescription)}
             {githubsrc('https://github.com/AnvaKondak/react_pastel_portfolio_template', 'Pastel-themed Portfolio Template', portfolioTemplate)}
         </div>
         </div>
