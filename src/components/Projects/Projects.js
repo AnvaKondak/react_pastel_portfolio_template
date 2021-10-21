@@ -28,7 +28,7 @@ const Projects = () => {
         <div className = {classes.Content}>
             <div className={classes.Paragraph}>
             <p data-aos="fade-up">
-               “The computer was born to solve problems that did not exist before.”
+            "Experience is simply the name we give our mistakes." -Oscar Wilde
                 </p>
             </div>
             <div className = {classes.Videos} data-aos="fade-up" data-aos-delay="300">
