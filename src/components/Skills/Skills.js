@@ -48,9 +48,6 @@ const Skills = () => {
         <PageHeader title="Skills" color='#ec6c44'/>
         <div className="row justify-content-center">
         <div className="col-4"></div>
-        <p  data-aos="fade-up" className = "col-4 text-center">
-              I am experienced in full stack development, data automation, workload automation and UI/UX design. 
-                </p>
                  <div className="col-4"></div>
                 </div>
                 <div className = {classes.Container} data-aos="fade-up">
