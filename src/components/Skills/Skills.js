@@ -46,6 +46,7 @@ const Skills = () => {
 </svg>
     <div className={classes.Skills} id = "skills">
         <PageHeader title="Skills" color='#ec6c44'/>
+            <br/>
         <div className="row justify-content-center">
         <div className="col-4"></div>
                  <div className="col-4"></div>
