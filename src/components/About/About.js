@@ -25,7 +25,10 @@ I always expected my breakthrough moment to come during a random visit to the Mo
 Instead, this moment arrived  when I learned my first CSS animation library- Animate On Scroll.
 4 years later, I have had the privilege of working at a startup, Upwork (freelancing) and two large financial institutions. 
 I love working with design and technology in spaces that thrive on innovation and creativity. 
-My current focus is on picking up new skills, new programming languages and responsive design principles. 
+I value keen, fast-paced collaboration with other passionate engineers to solve difficult problems. 
+My current focus is building powerful tools that optimize processes and performance for end users or other engineers. 
+
+In my free time, you can find me writing short passages, reading fiction novels, or mentoring people that aspire to break into technology.
                 </p>
             </div>
           
