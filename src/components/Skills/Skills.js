@@ -11,7 +11,7 @@ const listTitleStyle = {
 const backendSkills = <ul>
     <li style={ listTitleStyle }>BACKEND</li>
     <br/>
-    <li>Express, Node,</li>
+    <li>Express, Rails,</li>
     <li>Java, MongoDB, Shell</li>
 </ul>
 
