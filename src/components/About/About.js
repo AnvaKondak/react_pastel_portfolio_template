@@ -21,14 +21,13 @@ const About = () => {
             <div  className={classes.Text} className="col-sm-6" >
                 <h2 data-aos="fade-up">A little about me!</h2>
                 <p  data-aos="fade-up" data-aos-delay="300">
-I always expected my breakthrough moment to come during a random visit to the MoMA, or perhaps after completing a classic novel. 
-Instead, this moment arrived  when I learned my first CSS animation library- Animate On Scroll.
-4 years later, I have had the privilege of working at a startup, Upwork (freelancing) and two large financial institutions. 
-I love working with design and technology in spaces that thrive on innovation and creativity. 
-I value keen, fast-paced collaboration with other passionate engineers to solve difficult problems. 
-My current focus is building powerful tools that optimize processes and performance for end users or other engineers. 
-
-In my free time, you can find me writing short passages, reading fiction novels, or mentoring people that aspire to break into technology.
+Thanks for visiting! 👋 
+Here's a little blurb about me that was written before ChatGBT could make you think I'm cool! 
+I’m a full-stack software engineer. For my current role, I specialize in developing powerful libraries for other engineers to build applications on. 
+I love working in spaces that thrive on innovation and creativity. 
+I value keen, quality-driven collaboration with other passionate engineers to solve difficult problems. 
+I’m skilled in React, Angular, Rails, Express, Ruby, JavaScript, and Java. 
+In my free time, I enjoy writing short passages, reading fiction novels, and mentoring people that aspire to break into technology.
                 </p>
             </div>
           
