@@ -22,7 +22,7 @@ const About = () => {
                 <h2 data-aos="fade-up">A little about me!</h2>
                 <p  data-aos="fade-up" data-aos-delay="300">
 Thanks for visiting! 👋 
-Here's a little blurb about me that was written before ChatGBT could make you think I'm cool! 
+Here's a little blurb about me that was written before ChatGPT could make you think I'm cool. 
 I’m a full-stack software engineer. For my current role, I specialize in developing powerful libraries for other engineers to build applications on. 
 I love working in spaces that thrive on innovation and creativity. 
 I value keen, quality-driven collaboration with other passionate engineers to solve difficult problems. 
